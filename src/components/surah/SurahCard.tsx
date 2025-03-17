@@ -20,7 +20,9 @@ function SurahCard({ surah }: SurahCardProps) {
             </p>
           </div>
         </div>
-        <p className="font-bold text-2xl">{surah.nama}</p>
+        <p className="font-bold text-2xl text-light hover:text-violet-700 transition-colors">
+          {surah.nama}
+        </p>
       </div>
     </Link>
   );

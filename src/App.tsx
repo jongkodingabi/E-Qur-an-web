@@ -4,6 +4,7 @@
 import "./App.css";
 // import Photo from "./assets/Profile.png";
 import Hero from "./components/Hero";
+import SurahContainer from "./components/surah/SurahContainer";
 // import Profile from "./components/Profile";
 // import Verse from "./components/Verse";
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <Hero />
+      <SurahContainer />
     </>
   );
 }
